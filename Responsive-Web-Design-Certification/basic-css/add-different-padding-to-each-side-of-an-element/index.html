@@ -1,0 +1,80 @@
+<!-- 
+	HTML file
+
+	Written by: Stephen Jonker
+	Written on: Sat 16 Nov 2019
+	Copyright (c) 2019 - Stephen Jonker - www.stephenjonker.com
+	
+	Project: freeCodeCamp - Responsive Web Design Certification - basic CSS
+	
+	- This code is based on a template created by me to provide basic HTML structure
+	- Additional template code provided by freeCodeCamp
+	- Additions made by me to make it work
+	
+	Goal: 
+	- Add Different Padding to Each Side of an Element
+	- Give the blue box a padding of 40px on its top and left side, but only 20px on its bottom and right side.
+-->
+
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		freeCodeCamp - Sample Code 
+	</title>
+
+
+</head>
+
+<body>
+
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+
+</body>
+
+</html>
