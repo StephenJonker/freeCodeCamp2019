@@ -1,0 +1,57 @@
+<!-- 
+	HTML file
+
+	Written by: Stephen Jonker
+	Written on: Tue 15 Dec 2020 
+	Copyright (c) 2019 - Stephen Jonker - www.stephenjonker.com
+	
+	Project: freeCodeCamp - Responsive Web Design Certification - basic CSS
+	
+	- This code is based on a template created by me to provide basic HTML structure
+	- Additional template code provided by freeCodeCamp
+	- Additions made by me to make it work
+	
+	Goal: 
+	- Basic CSS: Use Hex Code to mix colors 
+-->
+
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		freeCodeCamp - Sample Code 
+	</title>
+
+
+</head>
+
+<body>
+
+<style>
+  .red-text {
+    color: #FF0000;
+  }
+  .green-text {
+    color: #00FF00;
+  }
+  .dodger-blue-text {
+    color: #1E90FF;
+  }
+  .orange-text {
+    color: #FFA500;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<h1 class="dodger-blue-text">I am dodger blue!</h1>
+
+<h1 class="orange-text">I am orange!</h1>
+
+</body>
+
+</html>
