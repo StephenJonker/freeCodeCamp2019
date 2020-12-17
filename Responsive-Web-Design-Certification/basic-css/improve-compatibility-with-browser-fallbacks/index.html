@@ -12,7 +12,7 @@
 	- Additions made by me to make it work
 	
 	Goal: 
-	- Basic CSS: <enter values here> 
+	- Basic CSS: Improve Compatibility with Browser Fallbacks 
 -->
 
 
@@ -28,6 +28,20 @@
 </head>
 
 <body>
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+
+    background: #FF0000;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
 
 
 </body>
