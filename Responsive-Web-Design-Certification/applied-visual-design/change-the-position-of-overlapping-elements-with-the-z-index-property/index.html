@@ -1,0 +1,57 @@
+<!-- 
+	HTML file
+
+	Written by: Stephen Jonker
+	Written on: Sat 09 Jan 2021 
+	Copyright (c) 2021 - Stephen Jonker - www.stephenjonker.com
+	
+	Project: freeCodeCamp - Responsive Web Design Certification - Applied Visual Design 
+	
+	- This code is based on a template created by me to provide basic HTML structure
+	- Additional template code provided by freeCodeCamp
+	- Additions made by me to make it work
+	
+	Goal: 
+	- Section: Applied Visual Design 
+	- Task: Change the Position of Overlapping Elements with the z-index Property
+-->
+
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		freeCodeCamp - Sample Code 
+	</title>
+
+	<style>
+		div {
+		  width: 60%;
+		  height: 200px;
+		  margin-top: 20px;
+		}
+	  
+		.first {
+		  background-color: red;
+		  position: absolute;
+			z-index: 2;
+		}
+		.second {
+		  background-color: blue;
+		  position: absolute;
+		  left: 40px;
+		  top: 50px;
+		  z-index: 1;
+		}
+	  </style>
+</head>
+
+<body>
+
+	  <div class="first"></div>
+	  <div class="second"></div>
+
+</body>
+
+</html>
