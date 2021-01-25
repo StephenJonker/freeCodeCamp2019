@@ -1,0 +1,59 @@
+<!-- 
+	HTML file
+
+	Written by: Stephen Jonker
+	Written on: Mon 25 Jan 2021
+	Copyright (c) 2021 - Stephen Jonker - www.stephenjonker.com
+	
+	Project: freeCodeCamp - Responsive Web Design Certification - CSS Grid  
+	
+	- This code is based on a template created by me to provide basic HTML structure
+	- Additional template code provided by freeCodeCamp
+	- Additions made by me to make it work
+	
+	Goal: 
+	- Section: CSS Grid
+	- Task: Use CSS Grid units to Change the Size of Columns and Rows
+-->
+
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		freeCodeCamp - Sample Code 
+	</title>
+	<style>
+		.d1{background:LightSkyBlue;}
+		.d2{background:LightSalmon;}
+		.d3{background:PaleTurquoise;}
+		.d4{background:LightPink;}
+		.d5{background:PaleGreen;}
+	  
+		.container {
+		  font-size: 40px;
+		  width: 100%;
+		  background: LightGray;
+		  display: grid;
+		  /* Only change code below this line */
+	  
+		  grid-template-columns: 1fr 100px 2fr;
+	  
+		  /* Only change code above this line */
+		  grid-template-rows: 50px 50px;
+		}
+	  </style>
+</head>
+
+<body> 
+	<div class="container">
+		<div class="d1">1</div>
+		<div class="d2">2</div>
+		<div class="d3">3</div>
+		<div class="d4">4</div>
+		<div class="d5">5</div>
+	  </div>
+</body>
+
+</html>
