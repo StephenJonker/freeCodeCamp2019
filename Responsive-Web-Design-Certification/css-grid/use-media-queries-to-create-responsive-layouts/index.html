@@ -1,0 +1,97 @@
+<!-- 
+	HTML file
+
+	Written by: Stephen Jonker
+	Written on: Mon 25 Jan 2021
+	Copyright (c) 2021 - Stephen Jonker - www.stephenjonker.com
+	
+	Project: freeCodeCamp - Responsive Web Design Certification - CSS Grid  
+	
+	- This code is based on a template created by me to provide basic HTML structure
+	- Additional template code provided by freeCodeCamp
+	- Additions made by me to make it work
+	
+	Goal: 
+	- Section: CSS Grid
+	- Task: Use Media Queries to Create Responsive Layouts
+-->
+
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		freeCodeCamp - Sample Code 
+	</title>
+	<style>
+		.item1 {
+		  background: LightSkyBlue;
+		  grid-area: header;
+		}
+	  
+		.item2 {
+		  background: LightSalmon;
+		  grid-area: advert;
+		}
+	  
+		.item3 {
+		  background: PaleTurquoise;
+		  grid-area: content;
+		}
+	  
+		.item4 {
+		  background: lightpink;
+		  grid-area: footer;
+		}
+	  
+		.container {
+		  font-size: 1.5em;
+		  min-height: 300px;
+		  width: 100%;
+		  background: LightGray;
+		  display: grid;
+		  grid-template-columns: 1fr;
+		  grid-template-rows: 50px auto 1fr auto;
+		  grid-gap: 10px;
+		  grid-template-areas:
+			"header"
+			"advert"
+			"content"
+			"footer";
+		}
+	  
+		@media (min-width: 700px){
+		  .container{
+			grid-template-columns: auto 1fr;
+			grid-template-rows: auto 1fr auto;
+			grid-template-areas:
+			  "advert header"
+			  "advert content"
+			  "advert footer";
+		  }
+		}
+	  
+		@media (min-width: 800px){
+		  .container{
+			grid-template-areas:
+			/* Only change code below this line */
+			  "header header"
+			  "advert content"
+			  "header footer";
+			/* Only change code above this line */
+		  }
+		}
+	  </style>
+</head>
+
+<body> 
+	<div class="container">
+		<div class="item1">header</div>
+		<div class="item2">advert</div>
+		<div class="item3">content</div>
+		<div class="item4">footer</div>
+	  </div>
+</body>
+
+</html>
