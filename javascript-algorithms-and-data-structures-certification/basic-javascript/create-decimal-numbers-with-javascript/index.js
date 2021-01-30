@@ -13,16 +13,19 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Create Decimal Numbers with JavaScript 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Create a variable myDecimal and give it a decimal value with a fractional part (e.g. 5.7).
 
-var a = 9; 
+var ourDecimal = 5.7;
 
-console.log("The value in variable a is: " + a);
+// Only change code below this line
+var myDecimal = 5.7;
+
+console.log("The value in variable myDecimal is: " + myDecimal + " Expect 5.7");
 
 // EOF

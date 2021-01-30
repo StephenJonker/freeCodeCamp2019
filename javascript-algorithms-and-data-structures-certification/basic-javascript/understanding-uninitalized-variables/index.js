@@ -13,16 +13,27 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Understanding Uninitialized Variables 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Initialize the three variables a, b, and c 
+// with 5, 10, and "I am a" respectively so that they will not be undefined.
 
-var a = 9; 
+// Only change code below this line
+var a = 5;
+var b = 10;
+var c = "I am a";
+// Only change code above this line
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
 
 console.log("The value in variable a is: " + a);
+console.log("The value in variable b is: " + b);
+console.log("The value in variable c is: " + c);
 
 // EOF

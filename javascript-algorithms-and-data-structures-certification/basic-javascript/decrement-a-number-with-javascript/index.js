@@ -13,16 +13,20 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Decrement a Number with JavaScript 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Decrement a Number with JavaScript
+// Original line: myVar = myVar - 1;
 
-var a = 9; 
+var myVar = 11;
 
-console.log("The value in variable a is: " + a);
+// Only change code below this line
+myVar--; 
+
+console.log("The value in variable myVar is: " + myVar + " Expect 10");
 
 // EOF

@@ -13,16 +13,17 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Divide One Number by Another with JavaScript 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Change the 0 so that the quotient is equal to 2.
+// var quotient = 66 / 0;
 
-var a = 9; 
+var quotient = 66 / 33; 
 
-console.log("The value in variable a is: " + a);
+console.log("The value in variable quotient is: " + quotient);
 
 // EOF

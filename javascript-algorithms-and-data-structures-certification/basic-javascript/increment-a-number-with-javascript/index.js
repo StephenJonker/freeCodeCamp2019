@@ -13,16 +13,23 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Increment a Number with JavaScript 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Change the code to use the ++ operator on myVar.
 
-var a = 9; 
 
-console.log("The value in variable a is: " + a);
+var myVar = 87;
+
+// Only change code below this line
+// Original line was: myVar = myVar + 1; 
+// Note: myVar = myVar++; <<== does not work, interesting
+
+myVar++; 
+
+console.log("The value in variable myVar is: " + myVar + " Expect 88");
 
 // EOF

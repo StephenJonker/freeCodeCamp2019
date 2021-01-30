@@ -19,10 +19,22 @@
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Modify the existing declarations and assignments so their names use camelCase.
+// Do not create any new variables
 
-var a = 9; 
+// Variable declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
 
-console.log("The value in variable a is: " + a);
+// Variable assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
+console.log("The value in variable studlyCapVar is: " + studlyCapVar);
+console.log("The value in variable properCamelCase is: " + properCamelCase);
+console.log("The value in variable titleCaseOver is: " + titleCaseOver);
+
 
 // EOF

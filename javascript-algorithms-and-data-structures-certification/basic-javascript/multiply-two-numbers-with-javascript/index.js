@@ -13,16 +13,17 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Multiply Two Numbers with JavaScript 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Change the 0 so that product will equal 80.
+// var product = 8 * 0;
 
-var a = 9; 
+var product = 8 * 10; 
 
-console.log("The value in variable a is: " + a);
+console.log("The value in variable product is: " + product);
 
 // EOF

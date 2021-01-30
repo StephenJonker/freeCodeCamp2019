@@ -13,16 +13,17 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Subtract One Number from Another with JavaScript 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Change the 0 so the difference is 12.
+// var difference = 45 - 0;
 
-var a = 9; 
+var difference = 45 - 33; 
 
-console.log("The value in variable a is: " + a);
+console.log("The value in variable difference is: " + difference);
 
 // EOF
