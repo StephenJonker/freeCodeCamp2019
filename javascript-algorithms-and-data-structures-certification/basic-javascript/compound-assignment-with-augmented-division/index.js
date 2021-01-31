@@ -13,16 +13,25 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Compound Assignment With Augmented Division 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Convert the assignments for a, b, and c to use the /= operator.
 
-var a = 9; 
+var a = 48;
+var b = 108;
+var c = 33;
 
-console.log("The value in variable a is: " + a);
+// Only change code below this line
+a /= 12;
+b /= 4;
+c /= 11; 
+
+console.log("The value in variable a is: " + a + " Expect 4");
+console.log("The value in variable b is: " + b + " Expect 27");
+console.log("The value in variable c is: " + c + " Expect 3");
 
 // EOF

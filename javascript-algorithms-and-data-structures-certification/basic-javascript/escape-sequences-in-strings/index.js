@@ -13,7 +13,7 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Escape Sequences in Strings
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
@@ -21,8 +21,8 @@ console.log("FCC - Javascript and Algorithms - basic javascript");
 // Goal: 
 // Define a variable a with var and initialize it to a value of 9.
 
-var a = 9; 
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line 
 
-console.log("The value in variable a is: " + a);
+console.log("The value in variable myStr is: \n" + myStr);
 
 // EOF

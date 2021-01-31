@@ -13,16 +13,19 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Declare String Variables 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Create two new string variables: 
+// myFirstName and myLastName and assign them the values of your first and last name, respectively.
 
-var a = 9; 
+var myFirstName = "James";
+var myLastName = "Bond"; 
 
-console.log("The value in variable a is: " + a);
+console.log("The value in variable myFirstName is: " + myFirstName);
+console.log("The value in variable myLastName is: " + myLastName);
 
 // EOF

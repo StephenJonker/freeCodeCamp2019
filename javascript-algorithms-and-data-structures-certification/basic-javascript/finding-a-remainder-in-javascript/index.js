@@ -2,7 +2,7 @@
 	Javascript file
 
 	Written by: Stephen Jonker
-	Written on: Sun 31 Jan 2021
+	Written on: Sat 30 Jan 2021
 	Copyright (c) 2021 - Stephen Jonker - www.stephenjonker.com
 	
 	Project: freeCodeCamp - Javascript and Algorithms - basic javascript   
@@ -13,16 +13,19 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Finding a Remainder in JavaScript 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) operator.
+// Original: var remainder;
+// Only change code below this line
 
-var a = 9; 
+var remainder;
+remainder = 11 % 3;
 
-console.log("The value in variable a is: " + a);
+console.log("The value in variable a is: " + remainder + " Expect 2");
 
 // EOF

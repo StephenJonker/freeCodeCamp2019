@@ -13,16 +13,18 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Escaping Literal Quotes in Strings 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Use backslashes to assign a string to the myStr variable so that if you were 
+// to print it to the console, you would see:
+// I am a "double quoted" string inside "double quotes".
 
-var a = 9; 
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line 
 
-console.log("The value in variable a is: " + a);
+console.log("The value in variable myStr is: " + myStr);
 
 // EOF

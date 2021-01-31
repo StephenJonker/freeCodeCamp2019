@@ -13,16 +13,16 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Concatenating Strings with Plus Operator 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Build myStr from the strings "This is the start. " and "This is the end." using the + operator.
 
-var a = 9; 
+var myStr = "This is the start. " + "This is the end."; // Change this line 
 
-console.log("The value in variable a is: " + a);
+console.log("The value in variable myStr is: " + myStr);
 
 // EOF

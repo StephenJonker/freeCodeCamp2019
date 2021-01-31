@@ -13,16 +13,18 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Quoting Strings with Single Quotes 
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Change the provided string to a string with single quotes at the beginning and end and no escape characters.
+// Right now, the <a> tag in the string uses double quotes everywhere. 
+// You will need to change the outer quotes to single quotes so you can remove the escape characters.
 
-var a = 9; 
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
-console.log("The value in variable a is: " + a);
+console.log("The value in variable myStr is: " + myStr);
 
 // EOF

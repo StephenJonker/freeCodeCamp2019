@@ -2,7 +2,7 @@
 	Javascript file
 
 	Written by: Stephen Jonker
-	Written on: Sun 31 Jan 2021
+	Written on: Sat 30 Jan 2021
 	Copyright (c) 2021 - Stephen Jonker - www.stephenjonker.com
 	
 	Project: freeCodeCamp - Javascript and Algorithms - basic javascript   
@@ -13,16 +13,25 @@
 	
 	Goal: 
 	- Section: basic javascript 
-	- Task: Initializing Variables with the Assignment Operator 
+	- Task: Compound Assignment With Augmented Subtraction
 */
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Convert the assignments for a, b, and c to use the -= operator.
 
-var a = 9; 
+var a = 11;
+var b = 9;
+var c = 3;
 
-console.log("The value in variable a is: " + a);
+// Only change code below this line
+a -= 6;
+b -= 15;
+c -= 1; 
+
+console.log("The value in variable a is: " + a + " Expect 5");
+console.log("The value in variable b is: " + b + " Expect -6");
+console.log("The value in variable c is: " + c + " Expect 2");
 
 // EOF
