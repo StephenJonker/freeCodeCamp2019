@@ -19,7 +19,7 @@
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
 // Goal: 
-// Define a variable a with var and initialize it to a value of 9.
+// Add a local variable to myOutfit function to override the value of outerWear with "sweater".
 
 // Setup
 var outerWear = "T-Shirt";
@@ -28,8 +28,8 @@ var result = "";
 function myOutfit() {
   // Only change code below this line
 
-	// outerWear = "local to function"; // sets variable "outerWear" in the GLOBAL scope 
-	var outerWear = "local to function"; // sets variable "outerWear" in the LOCAL function scope 
+	// outerWear = "sweater"; // sets variable "outerWear" in the GLOBAL scope 
+	var outerWear = "sweater"; // sets variable "outerWear" in the LOCAL function scope 
 
   // Only change code above this line
   return outerWear;
