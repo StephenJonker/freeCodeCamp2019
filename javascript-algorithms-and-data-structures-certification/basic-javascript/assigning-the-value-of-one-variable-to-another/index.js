@@ -18,16 +18,21 @@
 
 console.log("FCC - Javascript and Algorithms - basic javascript");
 
+// Goal: 
+// Call the processArg function with an argument of 7 and assign 
+// its return value to the variable processed.
+
 // Setup
-var a;
-a = 7;
-var b;
+
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
 
 // Only change code below this line
+processed = processArg(7); 
 
-// Assign the contents of a to variable b.
-b = a;
-
-console.log("Value of b is: " + b);
+console.log("Value of processed is: " + processed + " Expect value of 2");
 
 // EOF
