@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Javascript es6 modules</title>
+        <!--
+        <script type="module" src="./myModule.js"></script>
+        -->
+    </head>
+    <main>
+        <h1>Javascript es6 modules</h1>
+        <p>paragraph of text</p>
+        <h3>Current DateTime:</h3>
+        <p id="targetCurrentDateTime">PLACEHOLDER</p>
+        <script>
+            // import { toUpper } from './myModule.js';
+            let stuff = new Date();
+            document.getElementById("targetCurrentDateTime").innerHTML = stuff;
+        </script>
+    </main>
+</html>
