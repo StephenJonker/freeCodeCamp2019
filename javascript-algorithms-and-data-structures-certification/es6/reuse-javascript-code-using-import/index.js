@@ -23,6 +23,8 @@ console.log("FCC - Javascript and Algorithms - es6");
 
 // New code goes here
 
+import { toUpper } from "./myModule.js";
+
 let res = "<tbd>"; 
 console.log("The value in variable res is: " + res + " Expect <tbd> ");
 
