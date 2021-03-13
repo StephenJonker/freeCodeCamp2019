@@ -1,0 +1,23 @@
+<!DOCTYPE html>> 
+
+<html>
+    <head>
+        <title>Javascript es6 import</title>
+    </head>
+    <body>
+        <h1>Javascript es6 import example</h1>
+        <p>This html file will run an external javascript file</p>
+        <p id="targetDateTime">PLACEHOLDER</p>
+        <p id="targetDateTime2">PLACEHOLDER</p>
+        <script> 
+            // document.getElementById(id);
+            document.getElementById("targetDateTime").innerHTML = new Date();
+        </script>
+        <script type="module" src="./index.js"></script>
+        <!--
+            <script> 
+                document.getElementById("targetDateTime2").innerHTML = doStuff();
+            </script>
+        -->
+    </body>
+</html>
