@@ -21,6 +21,8 @@ console.log("FCC - Javascript and Algorithms - regular expressions");
 // Goal: 
 // Use the shorthand character class for non-digits \D to 
 // count how many non-digits are in movie titles.
+//
+// Added a commet, GitHub does not seem to be updating 
 
 let movieName = "2001: A Space Odyssey";
 let noNumRegex = /\D/g; // Change this line
