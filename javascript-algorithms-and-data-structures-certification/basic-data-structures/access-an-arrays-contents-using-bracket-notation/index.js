@@ -30,4 +30,5 @@ console.log(myArray);
 for(let i = 0; i < myArray.length; i++) {
 	console.log("Contents of myArray[" + i + "] is: " + myArray[i]);
 }
+
 // EOF
