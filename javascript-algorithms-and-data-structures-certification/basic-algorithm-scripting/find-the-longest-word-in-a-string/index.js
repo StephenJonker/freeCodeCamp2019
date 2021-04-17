@@ -19,7 +19,7 @@
 console.log("FCC - Javascript and Algorithms - basic algorithm scripting");
 
 // Goal: 
-// <tbd>
+// Get the max word length of a word in a string 
 
 function findLongestWordLength(str) {
 	let result = 0;
