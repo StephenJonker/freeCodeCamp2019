@@ -32,12 +32,12 @@ function titleCase(str) {
 
 		// for each word in the array
 		// split the word into 2 parts
-		let word = arrayOfWords[arrayOfWordsItemIndex];
+		//
+		let word = arrayOfWords[ arrayOfWordsItemIndex ];
 
 		// - firstChar
 		// - restOfString
 		let firstChar = word.substring(0,1);
-
 		let restOfString = word.substring(1,word.length);
 
 		// run toUpper on firstChar 
