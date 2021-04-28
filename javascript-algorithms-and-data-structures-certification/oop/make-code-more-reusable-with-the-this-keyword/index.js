@@ -21,13 +21,13 @@ console.log("FCC - Javascript and Algorithms - Object Oriented Programming");
 // Goal: 
 // Modify the dog.sayLegs method to remove any references to dog. Use the duck example for guidance.
 
-let dogX = {
+let dog = {
 	name: "Spot",
 	numLegs: 4,
 	sayLegs: function() {return "This dog has " + this.numLegs + " legs.";}
 };
   
-let res = dogX.sayLegs();
+let res = dog.sayLegs();
 
 console.log("The value in variable res is: " + res + " Expect This dog has 4 legs. ");
 
